@@ -24,7 +24,7 @@ install packages
 15. sudo apt-get install  microcom # install package for writing GPS signal
 16. microcom -p /dev/ttyACM0 -s 9600 > /tmp/file_name.nmea # writing log in nmea file
 
-install packages of python
+install packages of python<br/>
 17. sudo apt-get install python3-pip
 18. sudo pip3 install gps3
 19. sudo pip3 install pynmea2 
