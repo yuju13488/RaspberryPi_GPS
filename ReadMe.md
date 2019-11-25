@@ -17,7 +17,7 @@ install packages
 08. dmesg | grep -i usb #ttyACM0 port 
 09. sudo cat /dev/ttyACM0 # check USE signal
 10. sudo gpsd /dev/ttyACM0 -n -F /var/run/gpsd.sock # setting GPSD
-11. 	sudo killall gpsd
+11. sudo killall gpsd
 12. cgps -s # report of GPS
 13. xgps # report of GPS
 14. gpsmon # report of GPS
