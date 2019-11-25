@@ -25,15 +25,15 @@ install packages
 16. microcom -p /dev/ttyACM0 -s 9600 > /tmp/file_name.nmea # writing log in nmea file
 
 install packages of python<br/>
-17. sudo apt-get install python3-pip
-18. sudo pip3 install gps3
-19. sudo pip3 install pynmea2 
-20. sudo pip3 install microstacknode
-21. do pip3 install modeldb
-22. If function serial can't work:
-      sudo pip3 uninstall serial
-      sudo pip3 uninlstall pyserial
-      sudo pip3 install pyseria
-23. sudo apt-get install gpsbabel # gpsbabel -i nmea -f file_name.nmea -o gpx -F file_name.gpx
-24. sudo pip3 install gpxpy # package for gpx analysis
+17. sudo apt-get install python3-pip<br/>
+18. sudo pip3 install gps3<br/>
+19. sudo pip3 install pynmea2<br/>
+20. sudo pip3 install microstacknode<br/>
+21. do pip3 install modeldb<br/>
+22. If function serial can't work:<br/>
+      sudo pip3 uninstall serial<br/>
+      sudo pip3 uninlstall pyserial<br/>
+      sudo pip3 install pyseria<br/>
+23. sudo apt-get install gpsbabel # gpsbabel -i nmea -f file_name.nmea -o gpx -F file_name.gpx<br/>
+24. sudo pip3 install gpxpy # package for gpx analysis<br/>
 25. sudo pip3 install folium # package for html analysis
